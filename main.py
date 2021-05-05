@@ -15,18 +15,18 @@ TETRIS_PREFIX = ['', 'DOUBLE', 'TRIPLE', 'QUADRA', 'PENTA']
 
 # sounds
 pygame.mixer.init()
-sound_rotate = pygame.mixer.Sound('Audio/se_game_rotate.wav')
-sound_single = pygame.mixer.Sound('Audio/se_game_single.wav')
-sound_double = pygame.mixer.Sound('Audio/se_game_double.wav')
-sound_triple = pygame.mixer.Sound('Audio/se_game_triple.wav')
-sound_tetris = pygame.mixer.Sound('Audio/se_game_tetris.wav')
-sound_hold = pygame.mixer.Sound('Audio/se_game_hold.wav')
-sound_move = pygame.mixer.Sound('Audio/se_game_move.wav')
-sound_soft_drop = pygame.mixer.Sound('Audio/se_game_softdrop.wav')
-sound_hard_drop = pygame.mixer.Sound('Audio/se_game_harddrop.wav')
-sound_count = pygame.mixer.Sound('Audio/se_game_count.wav')
-sound_game_over = pygame.mixer.Sound('Audio/382310__myfox14__game-over-arcade.wav')
-sound_level_up = pygame.mixer.Sound('Audio/me_game_plvup.wav')
+sound_rotate = pygame.mixer.Sound('audio/se_game_rotate.wav')
+sound_single = pygame.mixer.Sound('audio/se_game_single.wav')
+sound_double = pygame.mixer.Sound('audio/se_game_double.wav')
+sound_triple = pygame.mixer.Sound('audio/se_game_triple.wav')
+sound_tetris = pygame.mixer.Sound('audio/se_game_tetris.wav')
+sound_hold = pygame.mixer.Sound('audio/se_game_hold.wav')
+sound_move = pygame.mixer.Sound('audio/se_game_move.wav')
+sound_soft_drop = pygame.mixer.Sound('audio/se_game_softdrop.wav')
+sound_hard_drop = pygame.mixer.Sound('audio/se_game_harddrop.wav')
+sound_count = pygame.mixer.Sound('audio/se_game_count.wav')
+sound_game_over = pygame.mixer.Sound('audio/382310__myfox14__game-over-arcade.wav')
+sound_level_up = pygame.mixer.Sound('audio/me_game_plvup.wav')
 
 # colors
 WHITE = 255, 255, 255
@@ -363,7 +363,7 @@ def remove_lines(lines):
 
 
 def start_count_down(shape, hold_pc):
-    pygame.mixer.music.load('Audio/Tetris 99 Theme.mp3')
+    pygame.mixer.music.load('audio/Tetris 99 Theme.mp3')
 
     for count_down_num in (range(3, 0, -1)):
         sound_count.play()
