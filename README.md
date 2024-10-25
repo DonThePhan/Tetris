@@ -11,7 +11,7 @@
 - <kbd>Space</kbd> &nbsp;&nbsp; Hard Drop
 - <kbd>z</kbd> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔄 CW
 - <kbd>x</kbd> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔄 CCW
-- <kbd>Ctrl</kbd> (win)/ ⌘ (mac) Hold
+- <kbd>Ctrl</kbd> &nbsp;&nbsp;&nbsp; Hold
   
  
 ![demo](https://user-images.githubusercontent.com/74743983/117168068-d5955c80-ad95-11eb-84c4-50e041679253.gif)
